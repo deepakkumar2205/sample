@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.heart {
+  color: #ff0000;
+}
+
+.small {
+  font-size: 0.75rem;
+}
+.cardCustom{
+  width: 400px !important;
+  padding-right: 0;
+  margin-bottom: 50px;
+}
+.cont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  /* min-width: 600px !important; */
+}
+.col{
+  display: flex;
+  justify-content: center;
+  width: 500px;
+
+}
+.row{
+  justify-content: center;
+}
+@media screen and (max-width:600px) {
+  .cont{
+  
+    width: 622px !important;
+  }
+  
+}
+html{
+  background-color: #086dea;
+}
